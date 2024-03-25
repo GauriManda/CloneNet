@@ -300,8 +300,188 @@ input[type="radio"]{
         width: 100px;
 
     }
-    .content h1{
-        font-size: 28px;
-
+    .content{
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        text-align: center;
+        margin-top: 30px;
     }
- }
+    .content h1{
+        font-size: 30px;
+        line-height: 40px;
+        font-weight: 600;
+        max-width: 650px;
+    }
+    .content h3{
+        font-size: 15px;
+        font-weight: 400;
+        margin-bottom: 10px;
+    
+    }
+    
+    .email-signup input{
+        
+        margin-left: 40px;
+    }
+    .email-signup button{
+    
+        font-size: 10px;
+        cursor: pointer;
+        padding: 5px 25px;
+    }
+    .row1{
+        border-top: 3px solid grey;
+        width: 100%;
+        align-items: center;
+        flex-wrap: wrap;
+        padding: 50px 40px;
+    }
+    .text-col1 {
+        flex-basis: 100%;
+        text-align: center;
+        margin-bottom: 20px;
+    }
+    .text-col1 h1{
+        font-size: 30px;
+    }
+    .text-col1 h2{
+        font-size: 20px;
+    }
+    .img-col1{
+        flex-basis: 100%;
+        margin-bottom: 20px;
+    }
+    .img-col1 img{
+        display: block;
+       
+        width: 100%;
+        margin: auto;
+    }
+    .row2{
+        border-top: 3px solid grey;
+        
+        width: 100%;
+        align-items: center;
+        flex-wrap: wrap;
+        padding: 80px 40px;
+    }
+    .text-col2{
+        text-align: center;
+        flex-basis: 100%;
+        margin-bottom: 20px;
+    }
+    .text-col2 h1{
+        font-size: 30px;
+    }
+    .text-col2 h2{
+        font-size: 20px ;
+    }
+    .img-col2{
+        flex-basis: 100%;
+        margin-bottom: 20px;
+    }
+    .img-col2 img{
+        display: block;
+       
+        width: 90%;
+        margin: auto;
+    }
+    .row3{
+        border-top: 3px solid grey;
+        
+        width: 100%;
+        align-items: center;
+        flex-wrap: wrap;
+        padding: 50px 0;
+    }
+    .text-col3{
+        text-align: center;
+        flex-basis: 100%;
+        margin-bottom: 20px;
+    }
+    .text-col3 h1{
+        font-size: 30px;
+    }
+    .text-col3 h2{
+        font-size: 20px;
+    }
+    .img-col3{
+        flex-basis: 100%;
+        margin-bottom: 20px;
+    }
+    .img-col3 img{
+        display: block;
+       
+        width: 90%;
+        margin: auto;
+    }
+    .row4{
+        border-top: 3px solid grey;
+      
+        width: 100%;
+        align-items: center;
+        flex-wrap: wrap;
+        padding: 50px 40px;
+    }
+    .text-col4{
+        text-align: center;
+        flex-basis: 100%;
+        margin-bottom: 20px;
+    }
+    .text-col4 h1{
+        font-size: 30px;
+    }
+    .text-col4 h2{
+        font-size: 20px;
+    }
+    .img-col4{
+        flex-basis: 100%;
+        margin-bottom: 20px;
+    }
+    .img-col4 img{
+        display: block;
+       
+        width: 90%;
+        margin: auto;
+    }
+    .faq{
+        border-top: 3px solid grey;
+        padding: 10px 12%;
+        text-align: center;
+        font-size: 18px;
+    }
+    .faq h2{
+        margin-top: 30px;
+        font-weight: 500;
+        font-size: 3opx;
+    }
+    .footer {
+        padding: 40px 10% 10px;
+        border-top: 6px solid #303030;
+        color: white;
+    }
+    .footer h2{
+        font-size: 10px;
+        font-weight: 400;
+        margin-bottom: 40px;
+    }
+    .footer .row{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .footer .col{
+        flex-basis: 24%;
+    }
+     .footer .col a{
+        display: block;
+        text-decoration: none;
+        color: white;
+        font-size: 13px;
+        margin-bottom: 10px;
+     }
+    
+    
+
+     }
